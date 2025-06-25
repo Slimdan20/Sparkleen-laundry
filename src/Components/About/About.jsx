@@ -1,6 +1,6 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import User from '../../Assets/user.png'
+import User from '../../assets/user.png'
 
 const About = () => {
 
