@@ -9,7 +9,7 @@ const Home = () => {
       <div className='mx-24 my-40 text-white leading-8'>
         <h1 className='text-6xl font-bold'>Sparkleen Laundry</h1>
         <h2 className='text-4xl font-semibold mt-1 mb-1'>Fast. Affordable. Spotless.</h2>
-        <p className='text-xl font-thin my-4'>We take laundry off your to-do list so you can focus on what <br /> matters. <br />Serving homes and businesses with trusted care and quick <br /> turnaround.  </p>
+        <p className='text-xl font-thin my-4 w-3/5 text-justify'>We take laundry off your to-do list so you can focus on what <br /> matters. <br />Serving homes and businesses with trusted care and quick <br /> turnaround.  </p>
         <button className='mt-5 bg-deepPurple font-semibold px-4 py-2 rounded-xl'>Book Now</button>
       </div>
       </div>
