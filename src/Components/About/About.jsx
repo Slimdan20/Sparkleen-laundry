@@ -48,9 +48,9 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='basis-3/5 ml-28'>
+        <div className='basis-3/6'>
           <h1 className='py-4 text-3xl font-semibold'>About Sparkleen</h1>
-          <p className='text-lg w-5/6 text-justify'> Sparkleen is dedicated to providing fast and reliable laundry services for busy individuals and businesses. We make laundry day a breeze by offering convenient pickup and delivery, professional garment care, and affordable pricing — so you can focus on what matters most while we handle the dirty work. </p>
+          <p className='text-lg text-justify'> Sparkleen is dedicated to providing fast and reliable laundry services for busy individuals and businesses. We make laundry day a breeze by offering convenient pickup and delivery, professional garment care, and affordable pricing — so you can focus on what matters most while we handle the dirty work. </p>
         </div>
       </div>
       
