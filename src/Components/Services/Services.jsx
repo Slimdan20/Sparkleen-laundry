@@ -6,7 +6,7 @@ import Truck from '../../assets/truck.png'
 const Services = () => {
   return (
     <div className='bg-lavender'>
-        <div className='mx-24'>
+        <div className='mx-24 pt-10'>
       <h1 className='py-4 text-3xl font-semibold'>Our Services</h1>
       <div className='flex justify-between'>
         <div className='bg-deepPurple rounded-xl text-white basis-88 text-center'>
@@ -26,7 +26,7 @@ const Services = () => {
         </div>
       </div>
       <h1 className='py-5 text-3xl font-semibold'>How it Works</h1>
-      <div className='flex justify-between pb-5'>
+      <div className='flex justify-between pb-16'>
         <p className='text-lg'><span className='py-1 px-2 rounded-full bg-deepPurple text-white mr-2 text-lg font-medium'>1</span>Schedule pickup</p>
         <p className='text-lg'><span className='py-1 px-2 rounded-full bg-deepPurple text-white mr-2 text-lg font-medium'>2</span>We collect and clean</p>
         <p className='text-lg'><span className='py-1 px-2 rounded-full bg-deepPurple text-white mr-2 text-lg font-medium'>3</span>Delivered fresh to your door</p>
