@@ -1,3 +1,8 @@
 .nav-link {
   @apply mx-5 text-base font-medium text-white ;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+

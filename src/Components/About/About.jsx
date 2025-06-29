@@ -36,7 +36,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className='bg-lavender'>
+    <div id='about' className='scroll-mt-20 bg-lavender'>
       <div className='flex justify-between mx-24 py-10'>
         <div className='basis-2/5'>
           <h1 className='py-4 text-3xl font-semibold'>Testimonial</h1>
