@@ -9,7 +9,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className='bg-deepPurple sticky top-0 z-50'>
-      <nav className='flex justify-between items-center mx-2 py-2 sm:mx-6 lg:mx-20 sm:py-0'>
+      <nav className='flex justify-between items-center mx-2 py-2 sm:mx-6 lg:mx-88 sm:py-0'>
         <div>
           <img src={Logo} alt="laundry logo" className='w-16 h-14 sm:w-28 sm:h-20' />
         </div>

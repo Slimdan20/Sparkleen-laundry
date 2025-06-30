@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",               // Include this for Vite projects
+    "./index.html",         
     "./src/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
@@ -18,13 +18,16 @@ export default {
         sans: ['Inter', 'sans-serif'],
       },
     flexBasis: {
-      88: '21.5rem', // 22rem = 352px
+      88: '21.5rem', 
     },
     height: {
-      '88': '40rem', // 22rem = 352px
+      '88': '40rem', 
     },
     width: {
-      '88': '90.5%', // 22rem = 352px
+      '88': '90.5%',
+    },
+    margin: {
+      '88': '4.5rem', 
     },
   },
   plugins: [],
