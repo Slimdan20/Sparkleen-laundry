@@ -40,7 +40,7 @@ const About = () => {
       <div className='mx-5 sm:flex justify-between sm:mx-24 py-24'>
         <div className='basis-2/5'>
           <h1 className='py-4 text-3xl font-semibold'>Testimonial</h1>
-          <div className="relative w-96 h-52 bg-deepPurple text-white rounded-md overflow-hidden">
+          <div className="relative w-60 sm:w-96 h-52 bg-deepPurple text-white rounded-md overflow-hidden">
             <div className={`transition-opacity duration-1000 ease-in-out ${fade ? 'animate-fade-once' : ''}`}>
             <img src={testimonials[index].image} alt="" className='m-auto my-4 w-11 h-11 p-2 border rounded-full'/>
             <p className='text-lg italic px-5 text-justify'>"{testimonials[index].text}"</p>

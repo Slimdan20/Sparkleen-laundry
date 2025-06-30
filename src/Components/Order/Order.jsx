@@ -30,7 +30,7 @@ const Order = () => {
     </div>
     <div className='text-white basis-2/5'>
       <h1 className='text-3xl font-semibold py-10'>How it works</h1>
-       <p className='bg-lavender rounded-md text-black w-72 p-5 italic text-xl'>"{usage[index]}"</p>
+       <p className='bg-lavender rounded-md text-black w-60 sm:w-72 p-5 italic text-xl'>"{usage[index]}"</p>
     </div>
     </div>
     </div>
