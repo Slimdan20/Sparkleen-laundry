@@ -10,12 +10,12 @@ const Success = () => {
   // Calculate delivery date = pickup + 7 days
   const getDeliveryDate = (pickup) => {
     if (!pickup) return null;
-    const date = new Date(pickup);
+    const date = new Date(pickup + 'T00:00:00');
     date.setDate(date.getDate() + 7);
     return date.toDateString(); // e.g., "Mon Jul 08 2025"
   };
 
-  const formattedPickup = pickupDate ? new Date(pickupDate).toDateString() : null;
+  const formattedPickup = pickupDate ? new Date(pickupDate + 'T00:00:00').toDateString() : null;
   const formattedDelivery = getDeliveryDate(pickupDate);
 
   return (
@@ -38,7 +38,7 @@ const Success = () => {
 
       <button
         onClick={() => navigate('/')}
-        className="bg-white text-deepPurple px-6 py-3 rounded shadow hover:bg-gray-100 transition"
+        className="bg-purple-800 text-white px-6 py-3 rounded shadow"
       >
         Back to Homepage
       </button>

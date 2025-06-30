@@ -42,7 +42,7 @@ function Form() {
         <input type="text" required name="Adress" placeholder="Adresss" className="border py-2 px-3 mx-7 mt-2 rounded-md" />
         <input type="number" required name="phone" placeholder="Phone number" className="border py-2 px-3 mx-7 mt-2 rounded-md" />
         <input type="email" required name="email" placeholder="Email" className="border py-2 px-3 mx-7 mt-2 rounded-md" />
-        <input type="date" required name="date" placeholder="Pickup date" className="border py-2 px-3 mx-7 mt-2 rounded-md" />
+        <input type="text" required name="date" placeholder="Preferred pickup date" onFocus={(e) => (e.target.type = 'date')}onBlur={(e) => {if (!e.target.value) e.target.type = 'text';}} className="border py-2 px-3 mx-7 mt-2 rounded-md" />
         <textarea name="message" placeholder="Special instruction" className="border py-2 px-3 mx-7 mt-2 rounded-md h-32"></textarea>\
         <div className="flex justify-between mx-7">
           <button type="submit" className="border w-48 text-white py-2 px-3 rounded-md">Order Now</button>
