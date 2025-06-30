@@ -18,7 +18,7 @@ const Success = () => {
   const formattedDelivery = getDeliveryDate(pickupDate);
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-b from-deepPurple to-white text-center p-6">
+    <div className="min-h-screen flex flex-col items-center pt-14 sm:justify-center bg-gradient-to-b from-deepPurple to-white text-center p-6">
       <img src={Logo} alt="Sparkleen Logo" className="w-28 h-28 mb-6" />
 
       <h1 className="text-4xl font-bold text-white mb-4">Order Received!</h1>
