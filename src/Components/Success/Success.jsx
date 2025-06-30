@@ -7,12 +7,11 @@ const Success = () => {
   const location = useLocation();
   const { pickupDate } = location.state || {};
 
-  // Calculate delivery date = pickup + 7 days
   const getDeliveryDate = (pickup) => {
     if (!pickup) return null;
     const date = new Date(pickup + 'T00:00:00');
     date.setDate(date.getDate() + 7);
-    return date.toDateString(); // e.g., "Mon Jul 08 2025"
+    return date.toDateString();
   };
 
   const formattedPickup = pickupDate ? new Date(pickupDate + 'T00:00:00').toDateString() : null;

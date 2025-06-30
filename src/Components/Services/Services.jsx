@@ -5,8 +5,8 @@ import Truck from '../../assets/truck.png'
 
 const Services = () => {
   return (
-    <div id='services' className='bg-lavender scroll-mt-20'>
-      <div className='mx-5 sm:mx-24 pt-10'>
+    <div id='services' className='bg-lavender scroll-mt-16 sm-scroll-mt-20'>
+      <div className='mx-5 sm:mx-12 lg:mx-24 pt-10'>
         <h1 className='py-4 text-3xl font-semibold'>Our Services</h1>
         <div className='grid gap-3 sm:flex sm:justify-between'>
           <div className='bg-deepPurple rounded-xl text-white basis-88 text-center'>
