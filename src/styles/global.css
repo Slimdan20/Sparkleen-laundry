@@ -2,6 +2,14 @@
   @apply sm:mx-5 text-base font-medium text-white ;
 }
 
+.special{
+  @apply leading-6 w-11/12 text-base font-medium  sm:text-xl sm:font-thin sm:w-3/5 text-justify
+}
+
+.form {
+  @apply border py-2 px-3 mx-4 sm:mx-7 mt-2 rounded-md w-72 sm:w-88
+}
+
 html {
   scroll-behavior: smooth;
 }

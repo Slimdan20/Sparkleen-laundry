@@ -19,7 +19,13 @@ export default {
       },
     flexBasis: {
       88: '21.5rem', // 22rem = 352px
-    }
+    },
+    height: {
+      '88': '40rem', // 22rem = 352px
+    },
+    width: {
+      '88': '90.5%', // 22rem = 352px
+    },
   },
   plugins: [],
 }

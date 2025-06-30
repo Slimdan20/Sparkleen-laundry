@@ -34,19 +34,19 @@ function Form() {
   return (
     <form onSubmit={onSubmit} className="mb-10">
       <h1 className="text-center font-bold text-3xl mt-5">Order Now</h1>
-      <div className="w-2/4 bg-deepPurple rounded-lg m-auto py-8 mt-3 grid gap-4 p-4">
-        <div className="flex justify-between px-4">
-          <input type="text" required name="name" placeholder="First-name" className="border py-2 px-3 ml-3 rounded-md w-64" />
-          <input type="text" required name="lastname" placeholder="Last-name" className="border py-2 px-3 mr-3 rounded-md w-64" />
+      <div className="mx-5 sm:w-2/4 bg-deepPurple rounded-lg sm:m-auto py-8 mt-3 grid gap-4 p-4">
+        <div className="grid gap-4 sm:flex sm:justify-between px-4">
+          <input type="text" required name="name" placeholder="First-name" className="border py-2 px-3 ml-0 sm:ml-3 rounded-md w-72 sm:w-64" />
+          <input type="text" required name="lastname" placeholder="Last-name" className="border ml-0 sm:ml-3 py-2 px-3 mr-3 rounded-md w-72 sm:w-64" />
         </div>
-        <input type="text" required name="Adress" placeholder="Adresss" className="border py-2 px-3 mx-7 mt-2 rounded-md" />
-        <input type="number" required name="phone" placeholder="Phone number" className="border py-2 px-3 mx-7 mt-2 rounded-md" />
-        <input type="email" required name="email" placeholder="Email" className="border py-2 px-3 mx-7 mt-2 rounded-md" />
-        <input type="text" required name="date" placeholder="Preferred pickup date" onFocus={(e) => (e.target.type = 'date')}onBlur={(e) => {if (!e.target.value) e.target.type = 'text';}} className="border py-2 px-3 mx-7 mt-2 rounded-md" />
-        <textarea name="message" placeholder="Special instruction" className="border py-2 px-3 mx-7 mt-2 rounded-md h-32"></textarea>\
+        <input type="text" required name="Adress" placeholder="Adresss" className="form" />
+        <input type="number" required name="phone" placeholder="Phone number" className="form" />
+        <input type="email" required name="email" placeholder="Email" className="form" />
+        <input type="text" required name="date" placeholder="Preferred pickup date" onFocus={(e) => (e.target.type = 'date')}onBlur={(e) => {if (!e.target.value) e.target.type = 'text';}} className="form" />
+        <textarea name="message" placeholder="Special instruction" className="form"></textarea>\
         <div className="flex justify-between mx-7">
-          <button type="submit" className="border w-48 text-white py-2 px-3 rounded-md">Order Now</button>
-          <button onClick={() => navigate('/', { state: { scrollTo: 'order' } })} className="border w-48 text-white py-2 px-3 rounded-md">Head back</button>
+          <button type="submit" className="border w-32 sm:w-48 text-white py-2 px-3 rounded-md">Order Now</button>
+          <button onClick={() => navigate('/', { state: { scrollTo: 'order' } })} className="border w-32 sm:w-48 text-white py-2 px-3 rounded-md">Head back</button>
         </div>
       </div>
     </form>
