@@ -6,11 +6,11 @@ import '/src/styles/global.css'
 const Navbar = () => {
   return (
     <div className='bg-deepPurple sticky top-0 z-50'>
-      <nav className='flex justify-between items-center mx-20'>
+      <nav className='flex justify-between items-center mx-1 sm:mx-20'>
         <div>
-          <img src={Logo} alt="laundry logo" className='w-28 h-20' />
+          <img src={Logo} alt="laundry logo" className='w-14 h-10 sm:w-28 sm:h-20' />
         </div>
-        <div >
+        <div className='hidden sm:flex'>
           <a href="#home" className='nav-link'>Home</a>
           <a href="#services" className='nav-link'>Services</a>
           <a href="#order" className='nav-link'>Order</a>

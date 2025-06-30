@@ -37,7 +37,7 @@ const About = () => {
 
   return (
     <div id='about' className='scroll-mt-20 bg-lavender'>
-      <div className='flex justify-between mx-24 py-24'>
+      <div className='mx-5 sm:flex justify-between sm:mx-24 py-24'>
         <div className='basis-2/5'>
           <h1 className='py-4 text-3xl font-semibold'>Testimonial</h1>
           <div className="relative w-96 h-52 bg-deepPurple text-white rounded-md overflow-hidden">
@@ -48,7 +48,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className='basis-3/6'>
+        <div className='hidden basis-3/6'>
           <h1 className='py-4 text-3xl font-semibold'>About Sparkleen</h1>
           <p className='text-lg text-justify'> Sparkleen is dedicated to providing fast and reliable laundry services for busy individuals and businesses. We make laundry day a breeze by offering convenient pickup and delivery, professional garment care, and affordable pricing — so you can focus on what matters most while we handle the dirty work. </p>
         </div>

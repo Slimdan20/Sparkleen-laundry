@@ -1,5 +1,5 @@
 .nav-link {
-  @apply mx-5 text-base font-medium text-white ;
+  @apply sm:mx-5 text-base font-medium text-white ;
 }
 
 html {
